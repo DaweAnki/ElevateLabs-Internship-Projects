@@ -32,10 +32,6 @@ A company has **1,470 employees**. Every few months, some employees resign — a
 ├── powerbi/
 │   ├── hr_attrition_dashboard.pbix
 │   └── hr_attrition_dashboard.pdf
-│
-└── report/
-├── HR_Attrition_Prevention_Report.pdf
-└── HR_Attrition_Final_Report.pdf
 ```
 ---
 
@@ -113,8 +109,6 @@ Features —
 - ✅ `01_EDA.ipynb` — Exploratory Data Analysis with 10 charts
 - ✅ `02_ML_Model.ipynb` — Random Forest Model (88.1% accuracy)
 - ✅ `hr_attrition_dashboard.pbix` — 3-page Power BI Dashboard
-- ✅ `HR_Attrition_Prevention_Report.pdf` — 8-page prevention report with 6 recommendations
-- ✅ `HR_Attrition_Final_Report.pdf` — 2-page final project report
 
 ---
 
