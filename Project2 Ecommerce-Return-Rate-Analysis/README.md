@@ -28,9 +28,6 @@ An e-commerce company has **5,000 orders** across 5 product categories. Every re
 │   ├── 01_EDA_Return_Analysis.ipynb
 │   └── 02_ML_LogisticRegression.ipynb
 │
-├── scripts/
-│   └── predict_return.py
-│
 ├── output/
 │   ├── plot1_overall_return_count.png
 │   ├── plot2_return_rate_pie.png
@@ -51,7 +48,10 @@ An e-commerce company has **5,000 orders** across 5 product categories. Every re
 │   ├── high_risk_orders.csv
 │   └── all_orders_with_risk_scores.csv
 │
-├── requirements.txt
+├── power bi/
+│   ├── Return_Rate_Dashboard.pbix
+│   └── Return_Rate_Dashboard.pdf
+│
 └── README.md
 ```
 
@@ -97,7 +97,20 @@ An e-commerce company has **5,000 orders** across 5 product categories. Every re
 | Class Weighting | Balanced |
 
 ---
+## 📈 Power BI Dashboard
 
+4-page interactive dashboard with —
+
+Page 1 — Overview → KPI cards (Total Orders, Return Rate %, Total Return Cost, Total Profit), Return by Category, Return Status Distribution, Year-wise Trend, Key Insights
+Page 2 — Segment → Top High Risk Cities, Return by Shipping Method, Return by Payment Method, Regional Insights
+Page 3 — Risk Score Analysis → Risk Label Distribution, Avg Risk by Category, Monthly Trend, High & Very High Risk Orders, ML Accuracy Insight
+Page 4 — Insights → High Risk Orders Table, Return Cost by Category, Profit vs Return Status, Business Recommendations
+
+Features —
+8+ DAX measures (Total Orders, Total Returned, Return Rate %, Total Return Cost, Avg Risk Score, Total Profit, High Risk Orders, Very High Risk Orders)
+Interactive slicers (Category, Payment Method, Shipping Method, Risk Label)
+Drill-through & cross-filtering across all visuals
+ML-based risk scoring integration (71% model accuracy)
 
 ---
 
@@ -119,11 +132,11 @@ An e-commerce company has **5,000 orders** across 5 product categories. Every re
 
 - ✅ `01_EDA_Return_Analysis.ipynb` — Exploratory Data Analysis with 11 charts
 - ✅ `02_ML_LogisticRegression.ipynb` — Logistic Regression Model (71% accuracy)
-- ✅ `predict_return.py` — Standalone Python prediction script
 - ✅ `high_risk_products.csv` — Products with ≥40% return rate
 - ✅ `high_risk_orders.csv` — Orders with risk score ≥ 0.5
 - ✅ `all_orders_with_risk_scores.csv` — All 5000 orders with predicted risk scores
-- 
+- ✅ `Return_Rate_Dashboard.pbix` — 4-page Power BI Dashboard
+- ✅ `Return_Rate_Dashboard.pdf` — 4-page Power BI Dashboard in pdf
 ---
 
 ## 🚀 How to Run
@@ -149,9 +162,32 @@ jupyter notebook 01_EDA_Return_Analysis.ipynb
 ```bash
 jupyter notebook 02_ML_LogisticRegression.ipynb
 ```
+**6. Open Power BI Dashboard**
+---
 
-**5. Run standalone prediction script**
-```bash
-cd scripts
-python predict_return.py
-```
+## 📋 Business Recommendations
+
+Based on data analysis, six key interventions were identified —
+
+1. **Clothing Quality Control** — Improve size guides and product descriptions to reduce Size Issue and Changed Mind returns
+2. **Supplier Audit** — Review suppliers with high defective return rates and set quality benchmarks
+3. **Discount Strategy** — Avoid high discounts on already high-return categories like Clothing
+4. **City-Level Targeting** — Investigate City44, City85, City77 for logistics or product issues
+5. **Payment Method Risk** — Add extra confirmation step for Credit Card and COD orders above threshold price
+6. **Predictive Alert System** — Use ML model to flag high-risk orders before dispatch for quality re-check
+
+---
+
+## 👩‍💻 Author
+
+**Ankita Daweshar**
+Data Analyst Intern — Elevate Labs
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github)](https://github.com/DaweAnki)
+
+---
+
+## 📄 License
+
+This project is open source and available for educational and portfolio purposes.
