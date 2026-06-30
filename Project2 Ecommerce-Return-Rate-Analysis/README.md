@@ -101,16 +101,16 @@ An e-commerce company has **5,000 orders** across 5 product categories. Every re
 
 4-page interactive dashboard with —
 
-Page 1 — Overview → KPI cards (Total Orders, Return Rate %, Total Return Cost, Total Profit), Return by Category, Return Status Distribution, Year-wise Trend, Key Insights
-Page 2 — Segment → Top High Risk Cities, Return by Shipping Method, Return by Payment Method, Regional Insights
-Page 3 — Risk Score Analysis → Risk Label Distribution, Avg Risk by Category, Monthly Trend, High & Very High Risk Orders, ML Accuracy Insight
-Page 4 — Insights → High Risk Orders Table, Return Cost by Category, Profit vs Return Status, Business Recommendations
+- Page 1 — Overview → KPI cards, Return by Category, Return Status Distribution, Year-wise Trend, Key Insights
+- Page 2 — Segment → Top High Risk Cities, Return by Shipping Method, Return by Payment Method, Regional Insights
+- Page 3 — Risk Score Analysis → Risk Label Distribution, Avg Risk by Category, Monthly Trend, High & Very High Risk Orders, ML Accuracy Insight
+- Page 4 — Insights → High Risk Orders Table, Return Cost by Category, Profit vs Return Status, Business Recommendations
 
 Features —
-8+ DAX measures (Total Orders, Total Returned, Return Rate %, Total Return Cost, Avg Risk Score, Total Profit, High Risk Orders, Very High Risk Orders)
-Interactive slicers (Category, Payment Method, Shipping Method, Risk Label)
-Drill-through & cross-filtering across all visuals
-ML-based risk scoring integration (71% model accuracy)
+- 8+ DAX measures (Total Orders, Total Returned, Return Rate %, Total Return Cost, Avg Risk Score, Total Profit, High Risk Orders, Very High Risk Orders)
+- Interactive slicers (Category, Payment Method, Shipping Method, Risk Label)
+- Drill-through & cross-filtering across all visuals
+- ML-based risk scoring integration (71% model accuracy)
 
 ---
 
