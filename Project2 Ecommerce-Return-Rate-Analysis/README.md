@@ -136,7 +136,7 @@ Features —
 - ✅ `high_risk_orders.csv` — Orders with risk score ≥ 0.5
 - ✅ `all_orders_with_risk_scores.csv` — All 5000 orders with predicted risk scores
 - ✅ `Return_Rate_Dashboard.pbix` — 4-page Power BI Dashboard
-- ✅ `Return_Rate_Dashboard.pdf` — 4-page Power BI Dashboard in pdf
+
 ---
 
 ## 🚀 How to Run
