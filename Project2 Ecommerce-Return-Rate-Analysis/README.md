@@ -184,7 +184,7 @@ Based on data analysis, six key interventions were identified —
 ## 👩‍💻 Author
 
 **Ankita Daweshar**
-Data Analyst Intern — Elevate Labs
+Data Analyst Intern
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github)](https://github.com/DaweAnki)
