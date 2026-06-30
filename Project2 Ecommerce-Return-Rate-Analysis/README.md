@@ -163,6 +163,9 @@ jupyter notebook 01_EDA_Return_Analysis.ipynb
 jupyter notebook 02_ML_LogisticRegression.ipynb
 ```
 **6. Open Power BI Dashboard**
+```bash
+Open powerbi/Return_Rate_Dashboard.pbix in Power BI Desktop
+```
 ---
 
 ## 📋 Business Recommendations
